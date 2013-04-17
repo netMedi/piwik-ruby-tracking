@@ -5,7 +5,7 @@
     var u=(("https:" == document.location.protocol) ? "https://<%= url %>/" : "http://<%= url %>/");
     _paq.push(['setSiteId', <%= id_site %>]);
     _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setCustomVariable', 1, 'Role', '<%= role>','visit'])
+    _paq.push(['setCustomVariable', 1, 'Role', '<%= role%>','visit'])
     _paq.push(['trackPageView']);
     var d=document,
       g=d.createElement('script'),
